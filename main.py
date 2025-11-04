@@ -214,4 +214,4 @@ def main_page():
 
 
 # === 3. Run the app ===
-ui.run(title="Projectile motion",favicon="🚀",port=7860,reload=False,storage_secret="superkey")
+ui.run(title="Projectile motion",favicon="🚀",port=8080,reload=False,storage_secret="superkey",host="0.0.0.0")
