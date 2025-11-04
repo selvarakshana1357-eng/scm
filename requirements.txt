@@ -1,0 +1,4 @@
+nicegui
+plotly
+numpy
+pandas
