@@ -149,7 +149,7 @@ def main_page():
         inputs = {}
         inputs['g'] = ui.number(label='Gravity (m/s²)', value=9.8, min=0, step=0.1, format='%.1f').props('outlined dense')
         inputs['m'] = ui.number(label='Mass (kg)', value=2.0, min=0.1, step=0.1, format='%.1f').props('outlined dense')
-        inputs['theta_deg'] = ui.number(label='Angle (degrees)', value=45.0, min=0, max=90, step=1, format='%.0f').props('outlined dense')..classes("w-46.5")
+        inputs['theta_deg'] = ui.number(label='Angle (degrees)', value=45.0, min=0, max=90, step=1, format='%.0f').props('outlined dense').classes("w-46.5")
         inputs['v0'] = ui.number(label='Initial Velocity (m/s)', value=100.0, min=1, step=1, format='%.0f').props('outlined dense')
         
         inputs['air_resistance'] = ui.switch('Air Resistance', value=True).classes('mt-2')
